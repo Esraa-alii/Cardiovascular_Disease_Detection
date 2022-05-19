@@ -6,7 +6,8 @@
   z-index: 1;
  }
  #center {
-background-color: rgb(60, 44, 59);
+/* background-color: rgb(60, 44, 59); */
+background-color: rgb(62, 63, 83);
 position:absolute ;
 z-index: 2;
 width: 76%;
@@ -16,20 +17,22 @@ left: 12%;
 border-radius: 3%;
 color: white;
  }
- h1{
-     z-index: 2;
-     position: absolute;
-     top: 5%;
-     left: 45%;
+ h2{
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+
 
  }
  #g{
-     position: absolute;
-     z-index: 3;
-     left: 1%;
-     width: 36%;
-     height: 98%;
-    top: 1%; 
+    position: absolute;
+    z-index: 3;
+    left: 1%;
+    width: 51%;
+    height: 98%;
+    top: 1%;
+    border-radius: 3%;
 }
 #logo{
     width: 8%;
@@ -44,172 +47,209 @@ color: white;
     left: 2%;
 }
 #scroll{
-    top: 2%;
+    top: 12%;
     overflow: scroll;
-    right: 2%;
+    right: 12%;
     font-size: x-large;
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 40%;
+    height: 84%;
 }
 #name{
     position: absolute;
-    top: 22%;
-    right: 35%;
-    width: 25%;
+    top: 5%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
 }
 #sname{
-    padding-left: 1%;
-
-        position: absolute;
-        top: 22%;
-        right: 5%;
-        width: 25%;
-        border-radius: 10px;
-
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    width: 60%;
+    border-radius: 10px;
+    padding-left: 3%;
 }
 #height{
     position: absolute;
-    top: 34%;
-    right: 35%;
-    width: 25%;
+    top: 25%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
 
 }
 #weight{
     position: absolute;
-    top: 34%;
-    right: 5%;
-    width: 25%;
+    top: 35%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
-
+    padding-left: 3%;
 }
 #bdate{
     position: absolute;
-    top: 46%;
-    right: 5%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 55%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 
 }
 #date{
     position: absolute;
-    top: 46%;
-    right: 35%; 
-    /* color: rgb(116, 116, 116);  */
-     width: 25%;
+    top: 45%;
+    right: 2%;
+    width: 60%;
+    /* border-radius: 10px; */
+    /* padding-left: 6%; */
  }
  #gender{
     position: absolute;
-    top: 58%;
-    right: 5%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 65%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 
  }
  #Cholesterol{
     position: absolute;
-    top: 58%;
-    right: 35%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 75%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
-
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
  }
  #Glucose{
     position: absolute;
-    top: 70%;
-    right: 35%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 85%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 
  }
  #Smoking{
     position: absolute;
-    top: 70%;
-    right: 5%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 95%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 
  }
  #Alcoholintake{
     position: absolute;
-    top: 82%;
-    right: 5%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 105%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
-
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
  }
  #Physicalactivity{
 
-    padding-left: 1%;
- position: absolute;
-    top: 82%;
-    right: 35%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    position: absolute;
+    top: 115%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 }
 #Systolic{
     position: absolute;
-    top: 94%;
-    right: 35%;
-    color: rgb(116, 116, 116);
-    width: 25%;
+    top: 125%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);
 
 }
 #Diastolic{
 
     position: absolute;
-    top: 94%;
-    right: 5%;
-    color: rgb(116, 116, 116);
-    width: 25%;
-    font-size: x-large;
+    top: 135%;
+    right: 2%;
+    width: 60%;
     border-radius: 10px;
-    padding-left: 1%;
+    padding-left: 3%;
+    color: rgb(116, 116, 116);;
 
 }
 #submit{
     position: absolute;
-    top: 103%;
+    top: 145%;
     height: 7%;
-    right: 35%;
+    right: 12%;
     background-color: white;
-    color:rgb(60, 44, 59) ;
-    width: 25%;
-        font-size: x-large;
+    /* background-color:rgb(87, 137, 183); */
+    color:rgb(87, 137, 183) ;
+    width: 40%;        font-size: x-large;
+    padding-top: 0%;
     border-radius: 10px;
-   
+    transition : 0.5s;
+
 
 }
 #devo{
     position: absolute;
-    top: 103%;
+    top: 155%;
     height: 7%;
-    right: 5%;
+    right: 12%;
     background-color: white;
-    color:rgb(60, 44, 59) ;
-    width: 25%;
-    font-size: x-large;
+    /* background-color:rgb(87, 137, 183); */
+    color:rgb(87, 137, 183) ;
+    width: 40%;     
+     font-size: x-large;
     border-radius: 10px;
-    
+    transition : 0.5s;
 
+}
+#devo:hover,#submit:hover{
+    background-color:rgb(81, 143, 202) ;
+    color: white;
+    transition : 0.5s;
+
+}
+@media screen and (max-width: 400px) {
+  #g{
+  display: none;
+  }
+  #center{
+    width: 90%;
+    left: 5%;
+      }
+      #scroll{
+        /* right: auto; */
+        width: 100%;
+      }
+      h2{
+        left: 16%;
+      }
+    
+}
+@media screen and (max-width: 700px) {
+  #g{
+  display: none;
+  }
+  #center{
+width: 90%;
+left: 5%;
+  }
+  #scroll{
+    /* right: auto; */
+    width: 100%;
+  }
+  h2{
+    left: 16%;
+  }
 }
