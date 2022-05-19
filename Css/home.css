@@ -40,6 +40,7 @@ body {
     padding-left: 2.5%;
     border-radius: 5%;
     transition : 0.5s;
+    text-decoration: none;
 }
 #check:hover{
     color: white;

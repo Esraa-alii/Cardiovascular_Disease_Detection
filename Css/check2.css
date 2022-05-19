@@ -1,0 +1,215 @@
+ body{
+     background-color:rgb(211, 236, 250) ;
+     font-family: 'Truculenta', sans-serif; 
+     font-weight: bolder !important; 
+  font-size: xx-large;
+  z-index: 1;
+ }
+ #center {
+background-color: rgb(60, 44, 59);
+position:absolute ;
+z-index: 2;
+width: 76%;
+height: 90%;
+top: 5%;
+left: 12%;
+border-radius: 3%;
+color: white;
+ }
+ h1{
+     z-index: 2;
+     position: absolute;
+     top: 5%;
+     left: 45%;
+
+ }
+ #g{
+     position: absolute;
+     z-index: 3;
+     left: 1%;
+     width: 36%;
+     height: 98%;
+    top: 1%; 
+}
+#logo{
+    width: 8%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+#gif{
+    width: 12%;
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+}
+#scroll{
+    top: 2%;
+    overflow: scroll;
+    right: 2%;
+    font-size: x-large;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+}
+#name{
+    position: absolute;
+    top: 22%;
+    right: 35%;
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+}
+#sname{
+    padding-left: 1%;
+
+        position: absolute;
+        top: 22%;
+        right: 5%;
+        width: 25%;
+        border-radius: 10px;
+
+}
+#height{
+    position: absolute;
+    top: 34%;
+    right: 35%;
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+}
+#weight{
+    position: absolute;
+    top: 34%;
+    right: 5%;
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+}
+#bdate{
+    position: absolute;
+    top: 46%;
+    right: 5%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+}
+#date{
+    position: absolute;
+    top: 46%;
+    right: 35%; 
+    /* color: rgb(116, 116, 116);  */
+     width: 25%;
+ }
+ #gender{
+    position: absolute;
+    top: 58%;
+    right: 5%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+ }
+ #Cholesterol{
+    position: absolute;
+    top: 58%;
+    right: 35%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+ }
+ #Glucose{
+    position: absolute;
+    top: 70%;
+    right: 35%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+ }
+ #Smoking{
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+ }
+ #Alcoholintake{
+    position: absolute;
+    top: 82%;
+    right: 5%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+ }
+ #Physicalactivity{
+
+    padding-left: 1%;
+ position: absolute;
+    top: 82%;
+    right: 35%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+}
+#Systolic{
+    position: absolute;
+    top: 94%;
+    right: 35%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 1%;
+
+}
+#Diastolic{
+
+    position: absolute;
+    top: 94%;
+    right: 5%;
+    color: rgb(116, 116, 116);
+    width: 25%;
+    font-size: x-large;
+    border-radius: 10px;
+    padding-left: 1%;
+
+}
+#submit{
+    position: absolute;
+    top: 103%;
+    height: 7%;
+    right: 35%;
+    background-color: white;
+    color:rgb(60, 44, 59) ;
+    width: 25%;
+        font-size: x-large;
+    border-radius: 10px;
+   
+
+}
+#devo{
+    position: absolute;
+    top: 103%;
+    height: 7%;
+    right: 5%;
+    background-color: white;
+    color:rgb(60, 44, 59) ;
+    width: 25%;
+    font-size: x-large;
+    border-radius: 10px;
+    
+
+}
