@@ -12,72 +12,108 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Truculenta:opsz,wght@12..72,700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 <body>
- <img src="../Css/img/Screen Shot 2022-05-17 at 11.12.57 PM.png" alt="" id="logo">
- <img src="../Css/img/life-heart-unscreen.gif" alt="gif" id="gif">
+  <img src="../Css/img/life-heart-unscreen.gif" alt="gif" id="gif">
+<!-- <img src="../Css/img/Screen Shot 2022-05-16 at 9.29.10 PM.png" alt="" id="logo"> -->
 
-    <!-- <span id="col"></span> -->
-    <div id="center">
-        <img src="../Css/img/WhatsApp Image 2022-05-19 at 2.19.42 AM.jpeg" alt="" id="g">
-        <h2 id="title">Cardiovascular Disease Detection</h2>
         <form >
-            <div id="scroll">
-        <!-- name -->
-        <!-- <label for="name"> Name</label> -->
-        <input id="name" type="text" placeholder="Enter your first Name" required>
-        <input id="sname" type="text" placeholder="Enter your second Name" required>
-        <input type="number"  step="0.1" id="height" placeholder="Enter your height" required>
-        <input type="number" step="0.1" id="weight" placeholder="Enter your weight" required>
-        <h3 id="date">Enter your Date of birth</h3> 
-        <input type="date"  id="bdate">
-        <select id="gender" required > 
+          <h3 class="title">Cardiovascular Disease Detection</h3>
+        
+          <div class="input-field-L">
+            <input  type="text" placeholder="Enter your first Name"  required>
+          </div>
+
+          <div class="input-field-L">
+        <input  type="text" placeholder="Enter your second Name" required>
+          </div>
+
+          <div class="input-field-L">
+        <input type="number"  step="0.1"  placeholder="Enter your height" required>
+      </div>
+
+      <div class="input-field-L">
+        <input type="number" step="0.1"  placeholder="Enter your weight" required>
+      </div>
+
+      <div class="input-field-L">      
+        <input type="number" placeholder=" Systolic blood pressure"  required>
+      </div>
+
+      <div class="input-field-L">
+        <input type="number" placeholder=" Diastolic blood pressure" required>
+      </div>
+
+        <!-- <select id="gender" required > 
             <option selected> Gender</option>
             <option> male</option>
             <option> female</option>
-        </select>
-        <select id="Cholesterol" required> 
-            <option selected> Cholesterol</option>
-            <option> Normal</option>
-            <option> Above normal</option>
-            <option>  Well above normal</option>
+        </select> -->
 
+        <label for="">Gender</label>
+        <div class="sel">
+        <select required >
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
         </select>
-        <select id="Glucose" required> 
-            <option selected> Glucose</option>
+        </div>
+
+        <label for="">cholesterol</label>
+        <div class="sel">
+        <select  required> 
             <option> Normal</option>
             <option> Above normal</option>
             <option>  Well above normal</option>
         </select>
-        
-        <select id="Smoking" required> 
-            <option selected> Smoking</option>
+      </div>
+
+      <label for="">Glucose</label>
+      <div class="sel">
+        <select required> 
+            <option> Normal</option>
+            <option> Above normal</option>
+            <option>  Well above normal</option>
+        </select>
+      </div>
+
+      <label for="">Smoking</label>
+      <div class="sel">
+        <select  required> 
             <option> Yes</option>
             <option> No</option>
         </select>
-        <select id="Alcoholintake" required> 
-            <option selected> Alcohol intake</option>
+      </div>
+
+      <label for="">Alcoholintake</label>
+      <div class="sel">
+        <select  required> 
             <option> Yes</option>
             <option> No</option>
         </select>
-        <select id="Physicalactivity" required> 
-            <option selected> Physical activity</option>
+      </div>
+
+      <label for="">Physicalactivity</label>
+      <div class="sel">
+        <select required> 
             <option> Yes</option>
             <option> No</option>
         </select>
-        <input type="number" placeholder=" Systolic blood pressure" id="Systolic" required>
-        <input type="number" placeholder=" Diastolic blood pressure" id="Diastolic"required>
+      </div>
+
+      <label for="">Date of birth</label>
+      <div class="input-field-L">
+        <input type="date" required>
+      </div>
+       
         <!-- <button type="submit" id="submit"> </button> -->
       <!-- Button to Open the Modal -->
 <!-- Button trigger modal -->
 <!-- Button trigger modal -->
-<button  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="myInput" type="submit" value="submit">
+
+<button  class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" value="submit">
   See the result
 </button>
-
-
-        <button  id="devo">Developers tool </button>
-
     </div>
         </form>
+        <a href="./Home.html"><button class="back" >Back</button></a>
     </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" >
