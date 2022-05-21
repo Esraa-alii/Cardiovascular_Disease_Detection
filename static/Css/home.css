@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-image: url(img/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+     /* font-family: 'Truculenta', sans-serif; 
+       font-weight: bolder !important; 
+    font-size: xx-large; */
+    /* color: rgb(242, 103, 103); */
+    /* font-family: 'Lobster', cursive;    font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+/* #cardio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+#title{
+    position: absolute;
+    color: white;
+    top: 17%;
+    left: 5%;
+    width: 450px;
+    transition: 0.5s;
+}
+
+#title:hover {
+    padding-left: 20px;
+}
+
+#wanna{
+   position: absolute;
+   top: 60%;
+   left:5% ; 
+   color: white;
+   width: 600px;
+   margin-top: 25px;
+   transition: 0.5s;
+}
+
+#wanna:hover {
+  padding-left: 20px;
+}
+
+button {
+    position: absolute;
+    top: 85%;
+    left: 85px; 
+    background-color: white;
+    color: rgb(224, 46, 46);
+    font-weight: bold;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    transition : 0.5s;
+}
+
+button:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(224, 46, 46);
+    
+}
+
+#logo{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 10%;
+    
+}
+#gif{
+    position: absolute;
+    top: 74%;
+    height: 25%;
+}
+@media screen and (max-width: 700px) {
+    
+#cardio{
+    width: 100%;
+    height: 100%;
+}
+#title,#wanna{
+    font-size:25px;
+}
+#check{
+    width: auto;
+    height: auto;
+    float: none;
+    padding: auto;
+    font-size:18px;
+}
+#gif{
+    width: auto;
+}
+    
+
+
+  }
+  
+  @media screen and (max-width: 400px) {
+    
+    #cardio{
+        width: 100%;
+        height: 100%;
+    
+    }
+    #title,#wanna{
+        font-size: 17px;
+
+    }
+   
+    #check{
+        width: auto;
+        height: auto;
+        float: none;
+        padding: auto;
+        font-size: 17px;
+    }
+    #gif{
+        width: auto;
+    }
+}
+    
+  
+  /* @media screen and (max-width: 1200px) {
+    #cardio{
+        width: 100%;
+        height: 100%;
+    }
+    #title,#wanna{
+        font-size:25px;
+    }
+    #check{
+        width: auto;
+        height: auto;
+        float: none;
+        padding: auto;
+        font-size:22px;
+    }
+    #gif{
+        width: auto;
+    }
+  } */
