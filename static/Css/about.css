@@ -1,0 +1,46 @@
+body {
+    background-image: url(img/625f71d6-f7ff-40ce-8507-f07d58f65f9b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: red; */
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    background-color: rgba(255,255,255,0.01);
+    transition: 0.5s;
+}
+
+/* .card:hover {
+    padding-bottom: 15px;
+} */
+
+.card-title , .card-text {
+    font-family: cursive;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text{
+ color: black;
+ font-size: 22px;
+}
+
+.card-img-top {
+    height: 160px;
+}
+
