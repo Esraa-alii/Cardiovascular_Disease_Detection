@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/625f71d6-f7ff-40ce-8507-f07d58f65f9b.jpg);
+    background-image: url(img/625f71d6-f7ff-40ce-8507-f07d58f65f9b.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -8,7 +8,7 @@ body {
 .container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%,-50%);
     /* background-color: red; */
     padding: 20px;
@@ -33,6 +33,8 @@ body {
 
 .card-title {
     color: white;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .card-text{
@@ -44,3 +46,23 @@ body {
     height: 160px;
 }
 
+
+.about {
+    position: absolute;
+    top: 85%;
+    left: 625px;
+    background-color: white;
+    color: rgb(13 110 253);
+    font-weight: bold;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border-color: white;
+}
+
+.about:hover {
+    margin-left: 15px;
+    border: 1px solid rgb(13 110 253);
+    
+}

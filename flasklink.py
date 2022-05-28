@@ -90,7 +90,7 @@ def multiFunction():
             my_probability = "{:.2f}".format(prediction_probability[0,0]*100)
 
         else:
-            my_prediction= "UN Healthy wit CardioVascular Disease"
+            my_prediction= "UN Healthy with CardioVascular Disease"
             my_probability = "{:.2f}".format(prediction_probability[0,1]*100)
 
         return render_template("modal.html",  patientName= name , patientSname=sname ,prediction_text= my_prediction, prediction_text_probability=my_probability)
