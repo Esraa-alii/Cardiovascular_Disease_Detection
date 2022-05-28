@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Hearts</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/check.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Truculenta:opsz,wght@12..72,700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="{{url_for('static', filename= 'Css/img/life-heart-beat.gif')}}" alt="gif" id="gif" alt="gif" id="gif">
+<!-- <img src="../Css/img/Screen Shot 2022-05-16 at 9.29.10 PM.png" alt="" id="logo"> -->
+
+        <form  , method='POST' , action="/modal" >
+          <h3 class="title">Cardiovascular Disease Detection</h3>
+
+          <div class="input-field-L">
+            <input  type="text" name="name" placeholder="Enter your first Name"  required value="Khaled">
+          </div>
+
+          <div class="input-field-L">
+        <input  type="text" name="sname" placeholder="Enter your second Name" required value="Mohamed">
+          </div>
+
+          <div class="input-field-L">
+        <input type="number" name="height" step="0.1"  placeholder="Enter your height" required value="168">
+      </div>
+
+      <div class="input-field-L">
+        <input type="number" name="weight" step="0.1"  placeholder="Enter your weight" required value="86">
+      </div>
+
+      <div class="input-field-L">      
+        <input type="number" name="Systolic" placeholder=" Systolic blood pressure"  required value="120">
+      </div>
+
+      <div class="input-field-L">
+        <input type="number" name="Diastolic" placeholder=" Diastolic blood pressure" required value="80">
+      </div>
+
+        <!-- <select id="gender" required > 
+            <option selected> Gender</option>
+            <option> male</option>
+            <option> female</option>
+        </select> -->
+
+        <label for="">Gender</label>
+        <div class="sel">
+        <select name="gender" required >
+          <!-- <option value="Male">---</option> -->
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        </div>
+
+        <label for="">cholesterol</label>
+        <div class="sel">
+        <select name="Cholesterol" required> 
+            <option> Normal</option>
+            <option> Above normal</option>
+            <option>  Well above normal</option>
+        </select>
+      </div>
+
+      <label for="">Glucose</label>
+      <div class="sel">
+        <select name="Glucose" required> 
+            <option> Normal</option>
+            <option> Above normal</option>
+            <option>  Well above normal</option>
+        </select>
+      </div>
+
+      <label for="">Smoking</label>
+      <div class="sel">
+        <select name="Smoking" required> 
+          <option> No</option>
+            <option> Yes</option>
+        </select>
+      </div>
+
+      <label for="">Alcoholintake</label>
+      <div class="sel">
+        <select name="Alcoholintake" required> 
+          <option> No</option>
+            <option> Yes</option>
+
+        </select>
+      </div>
+
+      <label for="">Physicalactivity</label>
+      <div class="sel">
+        <select name="Physicalactivity" required> 
+            <option> Yes</option>
+            <option> No</option>
+        </select>
+      </div>
+
+      <label for="">Date of birth</label>
+      <div class="input-field-L">
+        <input type="date" name="bdate" required >
+      </div>
+      
+        <!-- <button type="submit" id="submit"> </button> -->
+      <!-- Button to Open the Modal -->
+<!-- Button trigger modal -->
+<!-- Button trigger modal -->
+
+    </div>
+        <a href="{{url_for('modal')}}" > <button class=" mod " type="submit"  >see the result</button>
+            <!-- <button  class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" value="submit">
+           The result  btn btn-outline-success            
+          </button> -->
+        </a> 
+
+    
+        </form>
+
+        <a href="/"><button class="back" >Back</button></a>
+  {%block modal%}
+  {%endblock%}
+
+
+
+    
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename= 'JS/check.js')}}"></script>
+<script src="{{url_for('static', filename= 'JS/bootstrap.bundle.min.js')}}"></script>
+
+<!-- <script>
+  let output='{{[prediction_text]}}'
+  if(output==("djiedljd"))
+    swal.fire(output , '' ,'warning')
+  else if(output==kjdcjk)
+    swal.fire(output,'','sucess')
+</script> -->
+</body>
+{%block script %}
+{%endblock%}
+</html>

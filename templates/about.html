@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/about.css')}}">
+    <title>Random Hearts</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 15rem;">
+                    <img src="{{url_for('static', filename= 'Css/img/9151e4ff-5f65-4861-813f-2a45e76ccd96.jpg')}}" class="card-img-top" alt="gif" id="gif">
+                <div class="card-body">
+                  <h5 class="card-title">Not Clean Data</h5>
+                  <p class="card-text">Exploration and Visualization of Model Data Before Cleaning.</p>
+                  <a href="/not_clean" target="_blank" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+          </div>
+
+        <div class="col">
+            <div class="card" style="width: 15rem;">
+            <img src="{{url_for('static', filename= 'Css/img/a9e2f5c3-4ec2-4fdc-8578-bd9e5bde73f1.jpg')}}" class="card-img-top" alt="gif" id="gif">
+                <div class="card-body">
+                  <h5 class="card-title">Kaggle Note Book</h5>
+                  <p class="card-text">Data Cleaning and Model Training on Kaggle.</p>
+                  <a href="https://www.kaggle.com/code/omarsaadelgharbawy/randomforestclassifier" target="_blank" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 15rem;">
+              <img src="{{url_for('static', filename= 'Css/img/04995e55-98f8-4c7d-a4f6-0618212a208c.jpg')}}" class="card-img-top" alt="gif" id="gif">
+                <div class="card-body">
+                  <h5 class="card-title">Clean Data</h5>
+                  <p class="card-text">Exploration and Visualization of Model Data after Cleaning.</p>
+                  <a href="/clean" target="_blank" class="btn btn-primary">Go</a>
+                </div>
+              </div>
+          </div>
+        
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Hearts</title>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'Css/home.css')}}">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Ms+Madi&family=Playfair+Display:ital,wght@1,400;1,500&family=Sansita+Swashed&family=Tapestry&family=Truculenta:opsz,wght@12..72,700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="{{url_for('static', filename= 'Css/img/logo.png')}}" alt="logo" id="logo">
+    <img src="{{url_for('static', filename= 'Css/img/life-heart-beat.gif')}}" alt="gif" id="gif">
+    <h1 id="title"> Welcome to ,<br>Cardiovascular Disease Detection</h1>
+    <h2 id="wanna">Wanna to check your self ?</h2>
+    <a href="/check" id="check"><button class="check">Let's Go</button></a>
+    <a href="/about" id="check"><button class="about">About</button></a>
+    <!-- <img src="../Css/img/cadio.jpg" alt="cardio" id="cardio"> -->
+    <script src="{{url_for('static', filename= 'JS/home.js')}}"></script>
+</body>
+</html>

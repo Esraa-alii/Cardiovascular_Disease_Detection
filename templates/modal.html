@@ -1,0 +1,42 @@
+{% extends 'check.html'  %}
+{% block modal %}
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" >
+      <div class="modal-content" >
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Cardiovascular Disease detector result </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Input is
+          {{prediction_input}}
+          <br>
+          Output is -->
+          Dear,
+          {{patientName}}
+          {{patientSname}}
+          <br>
+          You may be 
+          {{prediction_text}};
+          with probability of 
+          {{prediction_text_probability}}
+          % 
+        </div>
+        <div class="modal-footer">
+          <a href="{{url_for('check')}}"  class="btn btn-secondary" >close </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+
+{%block script %}
+<script>
+$(document).ready (function(){
+    console.log("window is loaded")
+    $("#exampleModal" ).modal("show")
+  })
+</script>
+{% endblock %}
