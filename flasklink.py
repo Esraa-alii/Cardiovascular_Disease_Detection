@@ -117,7 +117,7 @@ def check():
     return multiFunction()
 
 # prediction page
-@flasklink.route("/modal" , methods =['POST','GET']) #domain 
+@flasklink.route("/modal" , methods =['POST']) #domain 
 def modal():
     return multiFunction()
 
