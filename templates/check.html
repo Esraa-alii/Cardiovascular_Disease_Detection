@@ -20,47 +20,42 @@
           <h3 class="title">Cardiovascular Disease Detection</h3>
 
           <div class="input-field-L">
-            <input  type="text" name="name" placeholder="Enter your first Name"  required value="Khaled">
+            <input  type="text" name="name" placeholder="Enter your first Name" >
           </div>
 
           <div class="input-field-L">
-        <input  type="text" name="sname" placeholder="Enter your second Name" required value="Mohamed">
+        <input  type="text" name="sname" placeholder="Enter your second Name" >
           </div>
 
           <div class="input-field-L">
-        <input type="number" name="height" step="0.1"  placeholder="Enter your height" required value="168">
+        <input type="number" name="height" step="0.1"  placeholder="Enter your height" >
       </div>
 
       <div class="input-field-L">
-        <input type="number" name="weight" step="0.1"  placeholder="Enter your weight" required value="86">
+        <input type="number" name="weight" step="0.1"  placeholder="Enter your weight" >
       </div>
 
       <div class="input-field-L">      
-        <input type="number" name="Systolic" placeholder=" Systolic blood pressure"  required value="120">
+        <input type="number" name="Systolic" placeholder=" Systolic blood pressure" >
       </div>
 
       <div class="input-field-L">
-        <input type="number" name="Diastolic" placeholder=" Diastolic blood pressure" required value="80">
+        <input type="number" name="Diastolic" placeholder=" Diastolic blood pressure" >
       </div>
 
-        <!-- <select id="gender" required > 
-            <option selected> Gender</option>
-            <option> male</option>
-            <option> female</option>
-        </select> -->
-
         <label for="">Gender</label>
-        <div class="sel">
-        <select name="gender" required >
-          <!-- <option value="Male">---</option> -->
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
+        <div class="sel" required>
+        <select name="gender" placeholder=" Please select" >
+          <option  value="" disabled selected hidden>Choose Gender... </option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
         </select>
         </div>
 
         <label for="">cholesterol</label>
         <div class="sel">
-        <select name="Cholesterol" required> 
+        <select name="Cholesterol" required>
+          <option value="" disabled selected hidden>Choose Cholesterol Level...</option> 
             <option> Normal</option>
             <option> Above normal</option>
             <option>  Well above normal</option>
@@ -70,6 +65,7 @@
       <label for="">Glucose</label>
       <div class="sel">
         <select name="Glucose" required> 
+          <option value="" disabled selected hidden>Choose Glucose Level...</option> 
             <option> Normal</option>
             <option> Above normal</option>
             <option>  Well above normal</option>
@@ -79,23 +75,26 @@
       <label for="">Smoking</label>
       <div class="sel">
         <select name="Smoking" required> 
-          <option> No</option>
+          <option value="" disabled selected hidden>Do you Smoke?...</option> 
             <option> Yes</option>
+            <option> No</option>
         </select>
       </div>
 
       <label for="">Alcoholintake</label>
       <div class="sel">
-        <select name="Alcoholintake" required> 
-          <option> No</option>
+        <select name="Alcoholintake" required>
+          <option value="" disabled selected hidden>Do you take alcohol?...</option>  
             <option> Yes</option>
+            <option> No</option>
 
         </select>
       </div>
 
       <label for="">Physicalactivity</label>
       <div class="sel">
-        <select name="Physicalactivity" required> 
+        <select name="Physicalactivity" required>
+          <option value="" disabled selected hidden>Do you play sports?...</option>   
             <option> Yes</option>
             <option> No</option>
         </select>
@@ -114,7 +113,7 @@
     </div>
         <a href="{{url_for('modal')}}" > <button class=" mod " type="submit"  >see the result</button>
             <!-- <button  class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" value="submit">
-           The result  btn btn-outline-success            
+            The result  btn btn-outline-success            
           </button> -->
         </a> 
 
