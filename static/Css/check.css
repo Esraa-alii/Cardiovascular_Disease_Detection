@@ -439,10 +439,11 @@ label {
 
 @media screen and (max-width: 500px) {
   form {
-    width: 410px;
+    width: 400px;
   }
   .back {
-    top: 685px;
+    top: 673px;
+    left: 206px;
   }
   .mod {
     left: 80px;
@@ -451,6 +452,7 @@ label {
     width: 90%;
     margin-left: 23px;
   }
+ 
   /* body {
     background-image: url(../Css/img/data-service-heart.jpeg);
     background-repeat: no-repeat;
