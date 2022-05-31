@@ -423,8 +423,17 @@ label {
 } */
 @media screen and (max-width: 1125px) {
   form {
+    width: 80%;
     transform: translate(-50%,-50%);
+    height: 70%;
   }
+  .mod{
+    left: 33%
+  }
+  .back {
+    top: 89%;
+    left: 42%;
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -432,21 +441,24 @@ label {
     display: none;
   }
   .back {
-    top: 548px;
-    left: 2px;
-  }
+    top: 89%;
+    left: 42%;
+}
 }
 
 @media screen and (max-width: 500px) {
   form {
-    width: 400px;
+    width: 75%;
+    top: 46%;
   }
   .back {
-    top: 673px;
-    left: 206px;
-  }
+    top: 90%;
+    left: 39%;
+    position: absolute;
+}
+  
   .mod {
-    left: 80px;
+    left: 9%;
   }
   .modal {
     width: 90%;

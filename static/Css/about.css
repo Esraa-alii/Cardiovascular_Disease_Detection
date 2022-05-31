@@ -49,8 +49,8 @@ body {
 
 .about {
     position: absolute;
-    top: 85%;
-    left: 625px;
+    top: 103%;
+    left: 41%;
     background-color: white;
     color: rgb(13 110 253);
     font-weight: bold;
@@ -87,6 +87,52 @@ body {
     .about {
         position: relative;
         top: -8px;
-        left: 178px;
+        left: 34%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        height: 100%;
+        margin-left: 0;
+    }
+    body {
+            background-image: url(img/625f71d6-f7ff-40ce-8507-f07d58f65f9b.jpeg);
+            background-repeat: repeat;
+            background-size: cover;
+            height: 100vh;
+    }
+    .col {
+        flex: 1 0 0%;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .about {
+        position: relative;
+        top: -8px;
+        left: 40%;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .container {
+        height: 100%;
+        margin-left: 0;
+    }
+    body {
+            background-image: url(img/625f71d6-f7ff-40ce-8507-f07d58f65f9b.jpeg);
+            background-repeat: repeat;
+            background-size: cover;
+            height: 100vh;
+    }
+    .col {
+        flex: 1 0 0%;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .about {
+        position: relative;
+        top: -8px;
+        left: 44%;
     }
 }
