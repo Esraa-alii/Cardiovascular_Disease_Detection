@@ -9,4 +9,4 @@
 ### [Watch Video:](https://drive.google.com/file/d/19MT26U3C17RlqK8LBpIGdhlubEKUK_NI/view)
 [![Watch the video](https://github.com/Omar-Saad-ELGharbawy/Cardiovascular_Disease_Detection/blob/main/RandomHearts.png)](https://drive.google.com/file/d/19MT26U3C17RlqK8LBpIGdhlubEKUK_NI/view)
 
-### Kaggle Notebook (https://www.kaggle.com/code/omarsaadelgharbawy/randomforestclassifier)
+### [Kaggle Notebook] (https://www.kaggle.com/code/omarsaadelgharbawy/randomforestclassifier)
