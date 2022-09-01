@@ -110,7 +110,7 @@ body {
     .about {
         position: relative;
         top: -8px;
-        left: 40%;
+        left: 34%;
     }
 }
 @media screen and (max-width: 1125px) {
@@ -133,6 +133,6 @@ body {
     .about {
         position: relative;
         top: -8px;
-        left: 44%;
+        left: 32%;
     }
 }
